@@ -33,3 +33,9 @@
 /application/index.html
 /application/views/welcome_message.php
 /application/views/index.html
+/application/controllers/example.php
+/application/views/themes/simple.php
+/application/views/themes/blank.php
+/application/views/themes/default.php
+/application/views/ci_simplicity/
+/assets/themes/default/
