@@ -41,11 +41,19 @@ class MY_Output extends CI_Output {
 	 * @param string $template_view
 	 * @return void
 	 */
-	function set_template($template_view){
+	function set_template($template_view, $menu=''){ //menu aumentado por garmaser
 		$this->set_mode(self::OUTPUT_MODE_TEMPLATE);
 		$template_view = str_replace(".php", "", $template_view);
+                  $this->set_output_data('menu', $menu); //garmaser
 		$this->_template = self::TEMPLATE_ROOT . $template_view;
 	}
+        
+        function set_titulo($titulo,$descripcion=''){
+            if(!empty($descripcion)){ 
+                $titulo.=' <small>'.$descripcion.'</small>';            
+            }
+            $this->set_output_data('titulo', $titulo); //garmaser
+        }
 
 	/**set_mode alias
 	 *
