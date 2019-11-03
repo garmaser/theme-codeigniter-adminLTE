@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="<?= base_url('assets/themes/adminLTE') ?>/dist/css/adminlte.min.css">
         <!-- Google Font: Source Sans Pro -->
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-        
+
         <?php
         /** -- archivos css la libreria de theme -- */
         if (!empty($css)) {
@@ -35,8 +35,9 @@
             endforeach;
         }
         ?>
-                
-                
+
+        <!-- jQuery -->
+        <script src="<?= base_url('assets/themes/adminLTE') ?>/plugins/jquery/jquery.min.js"></script>     
     </head>
     <body class="hold-transition sidebar-mini">
         <!-- Site wrapper -->
@@ -192,7 +193,7 @@
                         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                             <!-- Add icons to the links using the .nav-icon class
                                  with font-awesome or any other icon font library -->
-                      
+
                             <li class="nav-item has-treeview">
                                 <a href="#" class="nav-link">
                                     <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -683,8 +684,6 @@
         </div>
         <!-- ./wrapper -->
 
-        <!-- jQuery -->
-        <script src="<?= base_url('assets/themes/adminLTE') ?>/plugins/jquery/jquery.min.js"></script>
         <!-- Bootstrap 4 -->
         <script src="<?= base_url('assets/themes/adminLTE') ?>/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
         <!-- AdminLTE App -->

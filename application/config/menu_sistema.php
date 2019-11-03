@@ -20,14 +20,18 @@ $config['menu_adminlte'] = array(
     array('principal' => TRUE, 'nombre' => 'Dashboard', 'url' => '', 'icono' => 'fa-dashboard'),
     array('principal' => FALSE, 'nombre' => 'Dashboard V1', 'url' => 'example_adminlte/index', 'icono' => ''),
     array('principal' => FALSE, 'nombre' => 'Dashboard V2', 'url' => 'example_adminlte/index_dos', 'icono' => ''),
+    array('principal' => FALSE, 'nombre' => 'Dashboard V3', 'url' => 'example_adminlte/index_tres', 'icono' => ''),
+    
+    array('principal' => TRUE, 'nombre' => 'Widgets', 'url' => 'example_adminlte/widgets', 'icono' => 'fa-th'),
     
     array('principal' => TRUE, 'nombre' => 'Layout Options', 'url' => '', 'icono' => 'fa-files-o'),
     array('principal' => FALSE, 'nombre' => 'Top navigation', 'url' => 'example_adminlte/layout_top_nav', 'icono' => ''),
     array('principal' => FALSE, 'nombre' => 'Boxed', 'url' => 'example_adminlte/layout_boxed', 'icono' => ''),
-    array('principal' => FALSE, 'nombre' => 'Fixed', 'url' => 'example_adminlte/layout_fixed', 'icono' => ''),
+    array('principal' => FALSE, 'nombre' => 'Fixed Sidebar', 'url' => 'example_adminlte/layout_fixed', 'icono' => ''),
+    array('principal' => FALSE, 'nombre' => 'Fixed Navbar', 'url' => 'example_adminlte/layout_fixed', 'icono' => ''),
     array('principal' => FALSE, 'nombre' => 'Collapsed sidebar', 'url' => 'example_adminlte/layout_collapsed_sidebar', 'icono' => ''),
     
-    array('principal' => TRUE, 'nombre' => 'Widgets', 'url' => 'example_adminlte/widgets', 'icono' => 'fa-th'),
+    
     
     array('principal' => TRUE, 'nombre' => 'Charts', 'url' => '', 'icono' => 'fa-pie-chart'),
     array('principal' => FALSE, 'nombre' => 'ChartJS', 'url' => 'example_adminlte/charts_chartjs', 'icono' => ''),

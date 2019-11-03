@@ -22,6 +22,7 @@ class Example_adminlte extends CI_Controller {
         $this->load->css(base_url('assets/themes/adminLTE/plugins/daterangepicker/daterangepicker.css'));
          $this->load->css(base_url('assets/themes/adminLTE/plugins/summernote/summernote-bs4.css'));
 //        /* -- Archivos js -- */
+         $this->load->js(base_url('assets/themes/adminLTE/plugins/jquery-ui/jquery-ui.min.js'));
         $this->load->js(base_url('assets/themes/adminLTE/plugins/chart.js/Chart.min.js'));
         $this->load->js(base_url('assets/themes/adminLTE/plugins/sparklines/sparkline.js'));
         $this->load->js(base_url('assets/themes/adminLTE/plugins/jqvmap/jquery.vmap.min.js'));

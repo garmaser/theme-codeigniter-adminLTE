@@ -581,3 +581,7 @@
     </div>
     <!-- /.row (main row) -->
 </div><!-- /.container-fluid -->
+
+<script>
+    $.widget.bridge('uibutton', $.ui.button)
+</script>
